@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 245, 245);
+    color: black;
+}
+
+h1{
+font-size: 2.5em;
+font-style: italic;
+}
+
+#secao{
+    background-color: rgb(31, 184, 245);
+    color: white;
+    
+    padding: 15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    min-height: 350px;
+    
+}
+
+#infos{
+ text-align: center;
+ margin-top: 100px;  
+ 
+  
+}
+
+#secaoInputs{
+    padding: 8px;
+}
+
+#labelCep{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+
+
+#numCep{
+    width: 20%;
+    padding: 0 0 5px 10px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.753);
+    font-size: 1.3em;
+    padding-top: 4px;
+    transition: 0.5s;
+}
+
+#numCep:hover{
+    background-color: rgb(209, 224, 224);
+}
+
+#botao{
+    
+    
+    
+    height: 38px;
+    font-size: 1.2em;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#botao:hover{
+    
+    background-color: orange;
+    color: white;
+}
+
+#resposta{
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 300px;
+    text-align: left;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom:40px;
+}
+
+#mostraCep{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#resposta p{
+    font-size: 1.3em; 
+
+}
+
+footer{
+    margin-top: 75px;
+    text-align: center;
+    
+    
+    font-size: 1.1em;
+    
+}
